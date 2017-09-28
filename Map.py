@@ -7,7 +7,9 @@ class Map:
         self.background_color = (200, 200, 200)
         self.blocks = [
             Ground(self.game, 0, self.game.height - 50, self.game.width, 50),
-            Ground(self.game, 0, self.game.height - 100, 500, 50)
+            Ground(self.game, 0, self.game.height - 100, 500, 50),
+            Ground(self.game, -20, -20, 20, self.game.height + 20),
+            Ground(self.game, self.game.width, -20, 20, self.game.height + 20)
         ]
 
     def draw(self, screen):
