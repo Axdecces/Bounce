@@ -11,10 +11,10 @@ class Map:
             Ground(self.game, 0, self.game.height - 100, 500, 50),
             Ground(self.game, -20, -20, 20, self.game.height + 20),
             Ground(self.game, self.game.width, -20, 20, self.game.height + 20),
-            Ground(self.game, self.game.width - 27, self.game.height - 88, 7, 33)
         ]
 
         self.objectives = [
+            LevelObjective(self.game, self.game.width - 60, self.game.height - 90, 20 , 40)
         ]
 
     def draw(self, screen):

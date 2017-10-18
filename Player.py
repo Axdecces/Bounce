@@ -6,7 +6,7 @@ from Physics import Physics
 class Player(Block):
     player_width = 16
     player_height = 32
-    color = (255, 0, 0)
+    color = (97, 169, 188)
 
     velocity_x = float(0)
     velocity_y = float(0)
